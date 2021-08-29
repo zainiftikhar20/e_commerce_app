@@ -5,7 +5,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../../../constants.dart';
 
 class AddToCart extends StatelessWidget {
-  const AddToCart({
+  const AddToCart(
+      {
     Key? key,
     required this.product,
   }) : super(key: key);
